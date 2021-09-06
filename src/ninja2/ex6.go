@@ -7,9 +7,9 @@ const thisYear = 2021
 const (
 	_ = iota
 	a = thisYear + iota
-	b = thisYear + iota
-	c = thisYear + iota
-	d = thisYear + iota
+	b
+	c
+	d
 )
 
 func main() {
